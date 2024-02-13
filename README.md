@@ -6,6 +6,13 @@
 	The data is split up into training and testing data. The data here is a large one, it has about eight columns and about 77,536 rows. It has several columns that show the loan size, the interest rate, the income of the borrower, the number of opened accounts, derogatory marks that show the negative items on the credit report, and the debt the borrower has. Also, that data shows the status of the loan, which means whether the loan is timely paid and if there are missed payments. 
 3. **Machine Learing Process**
 	The Machine Learning Process has features: the size of the loan, the interest rate, the income of the borrower, the number of accounts that are opened, derogatory marks that show the negative items on the credit report, and the total debt that the borrower has. Also, it has a label that shows the status of the loan. Using that data, we can do a first model and an oversampling data. We can calculate the precision, accuracy, and recall level from these two models. 
+	* Prepared Data:
+	Import data from csv, change the data type, and normalize the data, resampling the data if required(this step is the most important part).
+	* Separate the data into features and labels, use train_test_split to separate them into training and testing data set. 
+	* Initialize the model.
+	* Fitting the model using the training data(X_train, y_train).
+	* Use this model to make predictions(use X_test to predict y_predictions).
+	* Evaluate the predictions(compare y_predictions and y_test).
 
 4. **Machine Learning Packages**     
 ```python 
@@ -42,3 +49,4 @@ The precision for the  class (0) is 100% which means the model correctly made th
 The precision for class (1) is not good as expected because the percision is only 84%, but the recall for class (1) is acceptable, it predicted a higher risk sample.       
 
 On the other hand, the previous model recall is 94% and this oversampling recall model is 99%, which means this model has a higher standard because the recall is high. At the new standard, the percision is 84%. 
+I recommend using that model because that model has higher accuracy, percision, and recall as shown in the calculation for the first model and for the oversampling data.

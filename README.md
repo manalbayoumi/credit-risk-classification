@@ -1,8 +1,12 @@
 # Module 20 Credit Risk Analysis Report
 ## Overview 
 1. **The purpose of the analysis**
+	The analysis uses historical data to train and evaluate a model to show the loan risk and identify the borrowers' creditworthiness and the interest rate they will pay on their loans. Within that model, it will show the lending activity from a peer-to-peer company and whether lending money to customers is safe or risky. Also, it will show if the borrowers are paying their loans on time and if they are defaulting on their loans. 
 2. **About the Data**
+	The data is split up into training and testing data. The data here is a large one, it has about eight columns and about 77,536 rows. It has several columns that show the loan size, the interest rate, the income of the borrower, the number of opened accounts, derogatory marks that show the negative items on the credit report, and the debt the borrower has. Also, that data shows the status of the loan, which means whether the loan is timely paid and if there are missed payments. 
 3. **Machine Learing Process**
+	The Machine Learning Process has features: the size of the loan, the interest rate, the income of the borrower, the number of accounts that are opened, derogatory marks that show the negative items on the credit report, and the total debt that the borrower has. Also, it has a label that shows the status of the loan. Using that data, we can do a first model and an oversampling data. We can calculate the precision, accuracy, and recall level from these two models. 
+
 4. **Machine Learning Packages**     
 ```python 
 import numpy as np

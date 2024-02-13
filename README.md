@@ -29,7 +29,8 @@ Accuracy=(TruePositive+TrueNegative)/(TruePositive+TrueNegative+FalsePositive+Fa
 2. For Percision
 Percision=TruePositive/(TruePositive+FalsePositive)=18646/(18646+4)=99.97%
 3. Recall
-recall=TruePositive/(TruePositive+FalseNegative)=18646/(18646+119)=99.36%
+recall=TruePositive/(TruePositive+FalseNegative)=18646/(18646+119)=99.36%      
+![matrix.PNG](matrix.PNG)
 
 ## Conclusion
 The precision for the  class (0) is 100% which means the model correctly made the positive prediction everytime. The recall of that class is 99%.            
